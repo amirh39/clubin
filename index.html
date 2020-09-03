@@ -14,35 +14,51 @@
   </head>
 
   <header class="header">
-    <div class="container">
-      <nav class="nav">
-        <div id="nav__button">
-          <input type="checkbox" id="nav__checkbox" />
-          <label for="nav__checkbox" id="nav__label">
-            <div id="nav__text_bar"></div>
-          </label>
+    <nav class="nav">
+      <div class="container">
+        <!-- <div class="nav__toggle">
+          <div id="nav__button">
+            <input type="checkbox" id="nav__checkbox" />
+            <label for="nav__checkbox" id="nav__label">
+              <div id="nav__text_bar"></div>
+            </label>
+          </div>
+        </div> -->
+
+        <div class="nav__toggle">
+          <div class="burger burger-squeeze">
+            <div class="burger-lines"></div>
+          </div>
         </div>
 
         <a href="#" class="logo">
           <img src="img/logo.png" alt="logo" class="logo__image" />
-          <span class="logo__text">ClubIn</span>
+          <span class="logo__text text text--secondary"
+            >Club<span class="text text--accent">In</span></span
+          >
         </a>
 
         <div class="nav__menu">
           <ul class="nav__list">
-            <li class="nav__link">Home</li>
-            <li class="nav__link">Events</li>
-            <li class="nav__link">About Us</li>
-            <li class="nav__link">Contact</li>
+            <li><a class="nav__link">Home</a></li>
+            <li><a class="nav__link">Events</a></li>
+            <li><a class="nav__link">About Us</a></li>
+            <li><a class="nav__link">Contact</a></li>
           </ul>
 
           <div class="nav__account">
-            <a href="#" class="btn btn--primary">Sign In</a>
-            <a href="#" class="btn btn--secondary">Sign Up</a>
+            <a href="#" class="btn text--primary btn--primary btn--account"
+              >Sign In</a
+            >
+            <a href="#" class="btn text--primary btn--secondary btn--account"
+              >Sign Up</a
+            >
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
-  <body></body>
+  <body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
