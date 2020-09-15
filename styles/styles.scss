@@ -272,12 +272,11 @@ img {
       transform: translate(-52%, -52%);
       width: 110%;
       height: 110%;
-      border: 3rem solid;
-      border-image: $color--gradient;
+      border: 3rem solid $color--accent;
       border-right-color: transparent;
       border-bottom-color: transparent;
       border-radius: 50%;
-      opacity: 0.4;
+      opacity: 0.7;
     }
 
     &::after {
@@ -288,10 +287,11 @@ img {
       transform: translate(-48%, -48%);
       width: 110%;
       height: 110%;
-      border: 3rem solid blue;
+      border: 3rem solid $color--secondary;
       border-left-color: transparent;
       border-top-color: transparent;
       border-radius: 50%;
+      opacity: 0.7;
     }
   }
 }

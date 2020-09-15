@@ -413,13 +413,11 @@ img {
           transform: translate(-52%, -52%);
   width: 110%;
   height: 110%;
-  border: 3rem solid;
-  -o-border-image: linear-gradient(-60deg, #bd11fa, #46c2ff);
-     border-image: linear-gradient(-60deg, #bd11fa, #46c2ff);
+  border: 3rem solid #bd11fa;
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-radius: 50%;
-  opacity: 0.4;
+  opacity: 0.7;
 }
 
 .hero__image::after {
@@ -431,9 +429,10 @@ img {
           transform: translate(-48%, -48%);
   width: 110%;
   height: 110%;
-  border: 3rem solid blue;
+  border: 3rem solid #46c2ff;
   border-left-color: transparent;
   border-top-color: transparent;
   border-radius: 50%;
+  opacity: 0.7;
 }
 /*# sourceMappingURL=styles.css.map */
