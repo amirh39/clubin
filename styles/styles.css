@@ -394,8 +394,8 @@ img {
 
 .hero__image img {
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 6rem 0.1rem rgba(130, 46, 255, 0.5);
-          box-shadow: 0 0 6rem 0.1rem rgba(130, 46, 255, 0.5);
+  -webkit-box-shadow: 0 0 6rem 0.8rem rgba(130, 46, 255, 0.5);
+          box-shadow: 0 0 6rem 0.8rem rgba(130, 46, 255, 0.5);
   width: 25rem;
   width: clamp(20rem, calc(60vw + 1rem), 35rem);
   height: 25rem;
